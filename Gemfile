@@ -53,19 +53,16 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Custom gems
   gem "faker", git: "https://github.com/stympy/faker.git", branch: "master"
-
+  gem 'capybara', '>= 2.15'
 end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers'
+  gem 'webdrivers', '~> 4.0'
   # Custom gems
   gem 'geckodriver-helper'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
   # Tests
   gem 'rspec-rails', '~> 3.8'
   gem "shoulda-matchers"
