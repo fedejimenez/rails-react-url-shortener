@@ -44,7 +44,7 @@ group :development, :test do
   # Custom gems
   gem 'brakeman'
   gem 'bundle-audit'
-  gem "rubocop", "~> 0.70.0", require: false
+  gem "rubocop", "~> 0.80.0", require: false
   gem "faker"
 end
 
