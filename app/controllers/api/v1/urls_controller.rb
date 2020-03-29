@@ -2,6 +2,7 @@
 
 class Api::V1::UrlsController < Api::V1::ApiController
   before_action :set_url, only: %i[show update destroy]
+
   def index
     @urls = Url.all
 
@@ -15,7 +16,7 @@ class Api::V1::UrlsController < Api::V1::ApiController
   def create
     @url = Url.new(url_params)
 
-    if @movie.after_save
+    if @url.save
       render json: @url, status: :created
     else
       render json: @url.errors, status: :unprocessable_entity
@@ -35,11 +36,12 @@ class Api::V1::UrlsController < Api::V1::ApiController
   end
 
   private
+
   def set_url
     @url = Url.find_by(id: params[:id])
   end
 
   def url_params
-    params.require(:url).permit(:long_url, :short_url, :slug)
+    params.require(:url).permit(:long_url, :short_url, :slug, :clicked)
   end
 end

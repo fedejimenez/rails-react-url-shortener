@@ -45,6 +45,7 @@ group :development, :test do
   gem 'brakeman'
   gem 'bundle-audit'
   gem "rubocop", "~> 0.70.0", require: false
+  gem "faker"
 end
 
 group :development do
@@ -55,7 +56,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Custom gems
-  gem "faker", git: "https://github.com/stympy/faker.git", branch: "master"
   gem 'capybara', '>= 2.15'
 end
 
