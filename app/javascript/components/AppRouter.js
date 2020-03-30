@@ -1,11 +1,13 @@
 import React from "react";
 import { Router } from "@reach/router";
-import UrlList from "./UrlList";
+import UrlPage from "./pages/UrlPage";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <Router>
-      <UrlList path="/" />
+      <HomePage path="/" />
+      <UrlPage path="/urls" />
     </Router>
   );
 }

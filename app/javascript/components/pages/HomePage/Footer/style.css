@@ -1,0 +1,206 @@
+
+
+@media(min-width: 376px){
+
+    footer{
+        display: block;
+        width: 100%;
+        background: var(--dark-violet);
+        height: 300px;
+        color: #fff;
+        padding-top: 1px;
+        padding: 50px 0;
+    }
+
+    footer .content{
+        width: calc(100% - 22%);
+        margin: 0 11%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    footer .content .container-brand{
+        display: flex;
+        justify-content: flex-start;
+        height: 100px;
+        margin: 0;
+        font-size: 32px;
+        font-weight: bold;
+        color: #fff;
+        margin-left: 0;
+        width: 25%;
+
+    }
+
+    footer .content .container-nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 75%;
+    
+        font-size: 16px;
+    }
+
+    footer .content .container-nav .nav-group > .nav-link{
+        color: #fff;
+        padding: 7px 14px;
+        font-size: 24px;
+    }
+
+    footer .content .container-nav .nav-title{
+        font-weight: normal;
+        padding-bottom: 15px;
+    }
+    footer .content .container-nav .nav-group .nav-item{
+        display: block;
+        padding: 4px 0;
+    }
+
+    footer .content .container-nav .nav-group .nav-item .nav-link{
+        color: var(--gray-light);
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1250px){
+    footer .content{
+        width: calc(100% - 10%);
+        margin: 0 5%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1100px){
+    footer .content{
+        width: calc(100% - 60px);
+        margin: 0 30px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (min-width: 376px) and (max-width: 932px){
+    footer{
+        background-color: var(--dark-blue);
+        color: #fff;
+        padding: 50px 0;
+        height: auto;
+    }
+    footer .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .content .container-brand{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: capitalize;
+        font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+        margin-bottom: 25px;
+    }
+
+    footer .content .container-nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    footer .content .container-nav .nav-group{
+        
+        padding: 15px 0;
+    }
+
+    footer .content .container-nav .nav-group .nav-title{
+        text-align: center;
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+
+    footer .content .container-nav .nav-group .nav-item{
+        display: block;
+        text-align: center;
+    }
+
+    footer .content .container-nav .nav-group .nav-item .nav-link{
+        font-size: 14px;
+
+        color: var(--gray-light)
+    }
+
+    footer .content .container-nav .nav-group > .nav-link{
+        padding: 30px 15px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 375px){
+    footer{
+        background-color: var(--dark-blue);
+        color: #fff;
+        padding: 50px 0;
+    }
+    footer .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .content .container-brand{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: capitalize;
+        font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+        margin-bottom: 25px;
+    }
+
+    footer .content .container-nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    footer .content .container-nav .nav-group{
+        
+        padding: 15px 0;
+    }
+
+    footer .content .container-nav .nav-group .nav-title{
+        text-align: center;
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+
+    footer .content .container-nav .nav-group .nav-item{
+        display: block;
+        text-align: center;
+    }
+
+    footer .content .container-nav .nav-group .nav-item .nav-link{
+        font-size: 14px;
+
+        color: var(--gray-light)
+    }
+
+    footer .content .container-nav .nav-group > .nav-link{
+        padding: 30px 15px;
+        font-size: 22px;
+    }
+}

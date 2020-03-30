@@ -4,7 +4,7 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
-Bundler.require(*Rails.groups)
+Bundler.require(*Rails.groups, :assets, Rails.env)
 
 module RailsReactUrlShortener
   class Application < Rails::Application
@@ -16,9 +16,13 @@ module RailsReactUrlShortener
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
+    # Use binding.pry
     console do
       require "pry"
       config.console = Pry
     end
+
+    # Enable the asset pipeline
+    config.assets.enabled = true
   end
 end
