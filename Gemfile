@@ -35,6 +35,12 @@ gem 'pry-byebug'
 # CORS
 gem 'rack-cors'
 
+# Bootstrap
+gem 'bootstrap',  '~>4.3.1'
+
+# Fontawesome
+gem 'font_awesome5_rails'
+
 # Serializer
 gem "active_model_serializers", "~> 0.10.0"
 
@@ -76,6 +82,8 @@ group :test do
   gem 'database_cleaner'
   gem 'phantomjs', :require => 'phantomjs/poltergeist'
 end
+
+gem 'rails_12factor', group: :production
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

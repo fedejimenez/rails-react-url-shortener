@@ -1,0 +1,338 @@
+
+
+@media (min-width: 376px){
+    .shortly-product{ 
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 22%);
+    
+    }
+    
+    .shortly-product .shortly-action{
+    
+        height: 180px;
+        background-color: hsl(257, 27%, 26%);
+        background-size: cover;
+        border-radius: 12px;
+    
+    }
+    
+    .shortly-product .shortly-action .action-form{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5%;
+    }
+    
+    
+    
+    .shortly-product .shortly-action .action-form .filds{
+        width: 100%;
+    }
+    
+    .shortly-product .shortly-action .action-form .filds input{
+        width: calc(100% - 200px);
+        height: 58px;
+        border: 2px solid #fff;
+        border-radius: 7px;
+        font-size: 18px;
+        padding-left: 25px;
+        outline: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    
+    .shortly-product .shortly-action .action-form .filds input::placeholder{
+        color: hsl(257, 7%, 63%);
+    }
+    
+    .shortly-product .shortly-action .action-form .filds button{
+        width: 180px;
+        margin-left: 20px;
+        height: 54px;
+        border-radius: 7px;
+    }
+    
+    .shortly-product .shortly-action .action-form .filds p.error{
+        color: hsl(0, 87%, 67%);
+        display: block;
+        width: 100%;
+        height: 16px;
+        position: absolute;
+        margin-top: 7px;
+        font-style: italic;
+        font-size: 16px;
+        opacity: 0.7;
+    
+    }
+    
+    
+    .shortly-product  .Shortly-list{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+    
+    } 
+    
+    .shortly-product  .Shortly-list .container-preview{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 68px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2%;
+        background: #fff;
+        margin: 15px auto;
+    }
+    
+    
+    .shortly-product  .Shortly-list .container-preview .content{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        align-items: center;
+    }
+    
+    
+    .shortly-product  .Shortly-list .container-preview p{
+        font-size: 1.2em;
+    }
+    
+    .shortly-product  .Shortly-list .container-preview .link{
+        color: hsl(255, 11%, 22%);   
+    }
+    
+    .shortly-product  .Shortly-list .container-preview .shortLink{
+        padding: 0 15px;
+        display: block;
+        color: hsl(180, 66%, 49%);
+    }
+    
+    .shortly-product  .Shortly-list .container-preview .copy{
+        border-radius: 7px;
+        height: 42px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1250px){
+    .shortly-product{ 
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 10%);
+    
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 1100px){
+    .shortly-product{ 
+        position: absolute;
+        top: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 60px);
+    
+    }
+}
+
+@media (min-width: 376px) and (max-width: 932px){
+    .shortly-product{
+        height: auto;
+        position: absolute;
+        width: calc(100% - 22%);
+        top: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .shortly-product .shortly-action{
+        width: 100%;
+        height: auto;
+        background-color: var(--violet);
+        background-size: cover;
+        padding: 30px;
+        border-radius: 7px;
+    }
+
+    .shortly-product .shortly-action form .filds{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .shortly-product .shortly-action form .filds .search{
+        order: 1;
+        height: 48px;
+        width: 100%;
+        border: none;
+        border-radius: 7px;
+        padding-left: 15px;
+        font-size: 16px;
+        display: block;
+    }
+
+    .shortly-product .shortly-action form .filds .search::placeholder{
+        color: var(--gray);
+    }
+
+    .shortly-product .shortly-action form .filds .btn{
+        order: 3;
+        height: 48px;
+        width: 100%;
+        border-radius: 7px;
+        display: block;
+        width: 100%;
+        margin: 7px 0;
+    }
+
+    .shortly-product .shortly-action form .filds .error{
+        order: 2;
+        color: var(--red);
+        margin: 7px 0;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .Shortly-list .container-preview{
+        background: #fff;
+        margin: 25px 0;
+        border-radius: 7px;
+        height: auto !important;
+        width: 100%;
+    }
+
+    .Shortly-list .container-preview .link{
+        padding: 15px;
+        border-bottom: 1px solid var(--gray-light);
+        font-size: 14px !important;
+        width: 100%;
+    }
+
+    .Shortly-list .container-preview .content{
+        padding: 15px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Shortly-list .container-preview .content .shortLink{
+        font-size: 14px;
+        color: var(--cyan);
+        margin: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: left;
+        display: block;
+        padding: 0;
+    }
+    .Shortly-list .container-preview  .btn{
+        width: 100% !important;
+        height: 38px;
+        border-radius: 7px;
+        text-transform: capitalize;
+        font-size: 14px;
+
+        display: block;
+    }   
+}
+
+@media(max-width: 375px){
+    .shortly-product{
+        height: auto;
+        position: absolute;
+        width: calc(100% - 60px);
+        top: -85px;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .shortly-product .shortly-action{
+        width: 100%;
+        height: auto;
+        background-color: var(--violet);
+        background-size: cover;
+        padding: 30px;
+        border-radius: 7px;
+    }
+
+    .shortly-product .shortly-action form .filds{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .shortly-product .shortly-action form .filds input{
+        order: 1;
+        height: 48px;
+        width: 100%;
+        border: none;
+        border-radius: 7px;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    .shortly-product .shortly-action form .filds input::placeholder{
+        color: var(--gray);
+    }
+
+    .shortly-product .shortly-action form .filds button{
+        order: 3;
+        height: 48px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .shortly-product .shortly-action form .filds .error{
+        order: 2;
+        color: var(--red);
+        margin: 7px 0;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .Shortly-list .container-preview{
+        background: #fff;
+        margin: 25px 0;
+        border-radius: 7px;
+    }
+
+    .Shortly-list .container-preview .link{
+        padding: 15px;
+        border-bottom: 1px solid var(--gray-light);
+        font-size: 14px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .Shortly-list .container-preview .content{
+        padding: 15px;
+    }
+
+    .Shortly-list .container-preview .content .shortLink{
+        font-size: 14px;
+        color: var(--cyan);
+        margin-bottom: 15px;
+    }
+    .Shortly-list .container-preview .content button{
+        width: 100%;
+        height: 38px;
+        border-radius: 7px;
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+}

@@ -14,3 +14,12 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// import "bootstrap";
+import "../stylesheets/application";
+import "./app";
+import "../components/pages/HomePage/style";
+import "../components/pages/HomePage/Footer/style";
+import "../components/pages/HomePage/Header/style";
+import "../components/pages/HomePage/Shortly/style";
+import "@fortawesome/fontawesome-free/js/all";
