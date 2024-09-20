@@ -36,7 +36,7 @@ gem 'pry-byebug'
 gem 'rack-cors'
 
 # Bootstrap
-gem 'bootstrap',  '~>4.3.1'
+gem 'bootstrap',  '~>4.6.2'
 
 # Fontawesome
 gem 'font_awesome5_rails'
